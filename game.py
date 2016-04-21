@@ -1,11 +1,11 @@
-import time
-import random
+# finish game
 
-
-
-score = 0
-
-def core():
-    start = time.time()
-    while time.time - start < 60:
-        print()
+def finishGame():
+    gameOver = input("Would you like to play again?")
+    gameOver = gameOver.lower()
+    if gameOver == "yes":
+        nextScreen = startGame
+    elif gameOver == "no":
+        nextScreen = quit()
+    else:
+        print("Please reply with yes or no.")

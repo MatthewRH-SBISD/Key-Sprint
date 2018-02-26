@@ -1,0 +1,9 @@
+Authors
+=======
+
+[KeySprint] [home] is written and maintained by Matthew Rosca-Halmagean and Rachel Connelly,
+along with the following contributors:
+
+
+
+[home]: README.txt
